@@ -14,6 +14,8 @@ Cuando alguien propone cambios, los miembros del equipo pueden:
 - Probar la funcionalidad,
 - Aprobar o rechazar la incorporación del código a la rama principal.
 
+---
+
 ## **Explicación del flujo de trabajo en GitHub** 🔄
 
 El uso de GitHub sigue un flujo de trabajo estructurado para garantizar que los cambios en el código sean organizados y revisados adecuadamente. En esta guía vamos a proporcionar los comandos que deben ser utilizados desde Git Bash.
@@ -41,6 +43,8 @@ El uso de GitHub sigue un flujo de trabajo estructurado para garantizar que los 
 🔹 5. Resolución de observaciones y ajustes: Si se detectan mejoras o errores en el código, se pueden realizar correcciones dentro de la misma rama y volver a subir los cambios con ````git commit```` y ````git push````.
 
 🔹 6. Aprobación de los cambios: Antes de fusionar los cambios en la rama principal, es fundamental asegurarse de que han sido revisados y aprobados por el equipo.
+
+---
 
 ## **Comandos básicos de Git relacionados** 🔄
 Para trabajar con Git y gestionar cambios en un repositorio, es importante dominar algunos comandos esenciales. Aquí tienes una lista de los más relevantes:
@@ -169,4 +173,20 @@ Haz clic en "Merge pull request" para finalizar el proceso.
 </div>
 
 ---
+
+## **Buenas prácticas al trabajar con Pull Requests** 📌
+
+✍️ Usa títulos y descripciones claros.
+
+👥 Asigna revisores (@usuario) **si es necesario.**
+
+📎 Relaciona los PR con Issues existentes.
+
+🧪 Asegúrate de probar el código antes de abrir el PR.
+
+📂 Borra la rama luego de fusionar si ya no se necesita.
+
+---
+
+
 
