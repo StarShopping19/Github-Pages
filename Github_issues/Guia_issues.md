@@ -146,33 +146,6 @@ Los **hitos** agrupan issues bajo un objetivo común y permiten establecer una *
 
 ---
 
-# 📡 ¿Cómo comunicar y hacer seguimiento de un Issue?
-
-### 💬 1. Comentarios
-Una vez creado el issue, puedes agregar **comentarios** para discutir, proponer soluciones o compartir actualizaciones. ¡Es clave para la colaboración! 📝  
-
-### 👀 2. Menciones
-Puedes etiquetar a un miembro del equipo usando `@usuario` para que reciba una **notificación** y se involucre en la conversación. 🔔  
-
-<div align="center">
-  <img src="hola5.png" alt="Comentarios en Issues">
-</div>
-
-### ✅ 3. Lista de tareas
-Si el issue es complejo, puedes dividirlo en subtareas con una **checklist**. Para hacerlo, usa `- [ ]` antes de cada ítem.  
-Si una subtarea requiere más discusión, puedes convertirla en un issue independiente **haciendo clic en el círculo verde** al lado de la tarea. 📌  
-
-<div align="center">
-  <img src="hola6.png" alt="Lista de tareas en GitHub Issues">
-</div>
-
-
-
-
-
-
-
-
 
 
 
