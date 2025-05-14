@@ -32,3 +32,26 @@
 
 ---
 
+## 🧪 Ejemplos prácticos y casos de uso
+
+### ✅ Issue ejemplo 1: Error en la interfaz
+
+> "Al hacer clic en el botón de inicio, la aplicación se cierra inesperadamente."
+
+- 🐞 **Tipo:** Bug  
+- 🧑‍💻 **Asignado a:** `@juancito7`  
+- 🛠️ **Acción esperada:** Revisar la función del botón en `HomeScreen.js`.
+
+### ✅ Issue ejemplo 5: Documentación incompleta
+
+> "Falta documentación para el proceso de despliegue en `README.md`."
+
+- 📄 **Tipo:** Documentación  
+- 🧑‍💻 **Asignado a:** `@laurita3`  
+- ✍️ **Acción esperada:** Agregar pasos detallados de despliegue en producción.
+
+---
+
+> ✨ *Un buen Issue no solo reporta, sino que guía a quien lo resolverá.*
+
+--- 
