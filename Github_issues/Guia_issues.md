@@ -104,6 +104,67 @@ Estas opciones te ayudarán a mantener mejor estructurado el desarrollo del proy
 </div>
 
 
+# 🛠️ ¿Cómo organizar y gestionar un Issue en GitHub? 🚀
+
+En el último paso de la creación de un issue, vimos que se podían agregar **etiquetas**, **asignaciones** e **hitos**. Ahora exploraremos cada uno de estos elementos para que puedas gestionar eficientemente tus issues. 🔍
+
+---
+
+## 🏷️ 1. Etiquetas (Labels)
+Las etiquetas ayudan a **categorizar** los issues, permitiendo que los usuarios los filtren fácilmente. Puedes usar etiquetas predefinidas o crear las tuyas propias.  
+Ejemplos de etiquetas comunes:
+- `bug` 🐛 → Reportar errores
+- `enhancement` ✨ → Mejoras
+- `documentation` 📖 → Cambios en la documentación
+
+<div align="center">
+  <img src="hola1.png" alt="Etiquetas en GitHub Issues">
+</div>
+
+<div align="center">
+  <img src="hola2.png" alt="Etiquetas en GitHub Issues">
+</div>
+
+
+---
+
+## 👥 2. Asignaciones (Assignees)
+Las **asignaciones** permiten designar issues a miembros del equipo responsables de solucionarlos. Esto facilita la gestión de tareas dentro de un proyecto colaborativo. 🎯  
+
+<div align="center">
+  <img src="hola3.png" alt="Asignar Issues">
+</div>
+
+---
+
+## 📅 3. Hitos (Milestones)
+Los **hitos** agrupan issues bajo un objetivo común y permiten establecer una **fecha límite**. Además, muestran el progreso conforme se van completando las tareas, lo que ayuda a planificar el desarrollo. 🏆  
+
+<div align="center">
+  <img src="hola4.png" alt="Gestión de hitos en GitHub Issues">
+</div>
+
+---
+
+# 📡 ¿Cómo comunicar y hacer seguimiento de un Issue?
+
+### 💬 1. Comentarios
+Una vez creado el issue, puedes agregar **comentarios** para discutir, proponer soluciones o compartir actualizaciones. ¡Es clave para la colaboración! 📝  
+
+### 👀 2. Menciones
+Puedes etiquetar a un miembro del equipo usando `@usuario` para que reciba una **notificación** y se involucre en la conversación. 🔔  
+
+<div align="center">
+  <img src="hola5.png" alt="Comentarios en Issues">
+</div>
+
+### ✅ 3. Lista de tareas
+Si el issue es complejo, puedes dividirlo en subtareas con una **checklist**. Para hacerlo, usa `- [ ]` antes de cada ítem.  
+Si una subtarea requiere más discusión, puedes convertirla en un issue independiente **haciendo clic en el círculo verde** al lado de la tarea. 📌  
+
+<div align="center">
+  <img src="hola6.png" alt="Lista de tareas en GitHub Issues">
+</div>
 
 
 
