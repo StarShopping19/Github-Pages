@@ -57,3 +57,74 @@
 > ✨ *Un buen Issue no solo reporta, sino que guía a quien lo resolverá.*
 
 --- 
+# 🛠️ ¿Cómo crear un Issue en GitHub? 📝
+
+Los **Issues** en GitHub son una excelente manera de reportar problemas, sugerir mejoras o llevar un seguimiento de tareas dentro de un repositorio. 🚀  
+A continuación, te mostramos cómo crear un issue paso a paso:
+
+---
+
+## 1️⃣ Acceder al repositorio 🔗
+Ve al repositorio donde deseas crear el issue y haz clic en la pestaña **"Issues"**. Aquí es donde podrás visualizar los problemas abiertos y crear nuevos.
+
+<div align="center">
+  <img src="imagen2.png" alt="Pestaña Issues en GitHub">
+</div>
+
+---
+
+## 2️⃣ Crear un nuevo Issue ➕
+Haz clic en la opción **"New Issue"** para comenzar a documentar el problema o tarea.
+
+<div align="center">
+  <img src="imagen3.png" alt="Nuevo Issue">
+</div>
+
+---
+
+## 3️⃣ Escribir un título y descripción detallada 📝
+Especifica un **título claro y descriptivo** para tu issue. En la descripción, detalla el problema o tarea, explicando su propósito y cualquier información relevante que ayude a resolverlo. Recuerda incluir datos específicos, imágenes o enlaces si es necesario. 🔍
+
+<div align="center">
+  <img src="imagen4.png" alt="Descripción del Issue">
+</div>
+
+---
+
+## 4️⃣ Personalizar el Issue 🎯
+Opcionalmente, puedes mejorar la organización de tu Issue agregando:
+- **Etiquetas (Labels)** 🏷️: Para categorizar el problema (ej. "bug", "documentación").
+- **Asignaciones (Assignees)** 👥: Para designar responsables.
+- **Hitos (Milestones)** 📅: Para establecer fechas o versiones clave.
+
+Estas opciones te ayudarán a mantener mejor estructurado el desarrollo del proyecto.
+
+<div align="center">
+  <img src="imagen5.png" alt="Opciones para Issues">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
