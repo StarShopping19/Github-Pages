@@ -42,7 +42,7 @@ Para trabajar con Git y gestionar cambios en un repositorio, es importante domin
 - Inicializar un repositorio Git:
 
 <div align="center">
-  <pre>git init````
+  <pre>git init</pre></div>
 - Clonar un repositorio remoto:
 <div align="center">
   <pre>git clone URL-del-repositorio</pre></div>
