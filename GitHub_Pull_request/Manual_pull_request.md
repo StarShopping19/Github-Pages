@@ -1,25 +1,40 @@
-![logo](https://user-images.githubusercontent.com/35271042/79503741-8c396a00-7fe6-11ea-97e5-8fd1b3059eb8.png)
-# **¿CÓMO USAR GITHUB PULL REQUESTS? Una breve guía de inicio rápido**
-## **Introducción a GitHub Pull requests**
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/35271042/79503741-8c396a00-7fe6-11ea-97e5-8fd1b3059eb8.png">
+</div>
 
-Los **Pull Requests (PRs)** en **GitHub** son una herramienta esencial para la colaboración en proyectos de desarrollo. Permiten a los equipos trabajar en código de forma ordenada, proponer cambios y revisarlos antes de integrarlos en la rama principal.
+# **¿CÓMO USAR GITHUB PULL REQUESTS? Una breve guía de inicio rápido 🔄**
+## **Introducción a GitHub Pull requests** 🔄
 
-Un **<u>Pull Request</u>** es una solicitud para que los cambios realizados en una rama sean revisados y, eventualmente, integrados en otra rama del repositorio. Es especialmente útil en proyectos donde múltiples desarrolladores trabajan en paralelo.
+Los **Pull Requests (PRs)** 🔄 en **GitHub** son una herramienta esencial para la colaboración en proyectos de desarrollo. Permiten a los equipos trabajar en código de forma ordenada, proponer cambios y revisarlos antes de integrarlos en la rama principal.
+
+Un **Pull Request**  🔄 es una solicitud para que los cambios realizados en una rama sean revisados y, eventualmente, integrados en otra rama del repositorio. Es especialmente útil en proyectos donde múltiples desarrolladores trabajan en paralelo.
 Cuando alguien propone cambios, los miembros del equipo pueden:
 - Revisar el código,
 - Comentar sugerencias y correcciones,
 - Probar la funcionalidad,
 - Aprobar o rechazar la incorporación del código a la rama principal.
 
-## **Explicación del flujo de trabajo en GitHub**
+## **Explicación del flujo de trabajo en GitHub** 🔄
 
 El uso de GitHub sigue un flujo de trabajo estructurado para garantizar que los cambios en el código sean organizados y revisados adecuadamente. En esta guía vamos a proporcionar los comandos que deben ser utilizados desde Git Bash.
 
 🔹 1. Creación de una rama: Antes de modificar el código, se recomienda crear una nueva rama en el repositorio. Esto permite trabajar sin afectar la rama principal.
 
+<div align="center">
+  <img src="nueva_rama.png">
+</div>
+
 🔹 2. Realización de cambios y confirmación (````commit````): Después de modificar archivos, se registran los cambios en Git con ````git commit````.
 
+<div align="center">
+  <img src="commit.png">
+</div>
+
 🔹 3. Envío de la rama al repositorio remoto: Para compartir los cambios en GitHub, se sube la rama con ````git push````.
+
+<div align="center">
+  <img src="push.png">
+</div>
 
 🔹 4. Revisión del código y colaboración: Una vez los cambios están en el repositorio remoto, los miembros del equipo pueden revisar el código, hacer comentarios y sugerir ajustes para mejorar la calidad del código antes de integrarlo en la rama principal.
 
@@ -27,7 +42,7 @@ El uso de GitHub sigue un flujo de trabajo estructurado para garantizar que los 
 
 🔹 6. Aprobación de los cambios: Antes de fusionar los cambios en la rama principal, es fundamental asegurarse de que han sido revisados y aprobados por el equipo.
 
-## **Comandos básicos de Git relacionados**
+## **Comandos básicos de Git relacionados** 🔄
 Para trabajar con Git y gestionar cambios en un repositorio, es importante dominar algunos comandos esenciales. Aquí tienes una lista de los más relevantes:
 
 📌 Configuración Inicial: Antes de empezar a usar Git, puedes configurar tu usuario y correo...
