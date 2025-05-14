@@ -1,3 +1,5 @@
+![Logo_GitHubIssues](https://vercel.com/_next/image?url=https%3A%2F%2Fvercel.com%2Fapi%2Fv1%2Fintegrations%2Fassets%2Foac_CO0dZ5WuE1cHZazH7G355AwL%2Fimages%2F97d16e4ddd64d326bdfbf664ef65510aad90b769.png&w=3840&q=75 "GitHub Issues")
+
 # ¿CÓMO USAR GITHUB ISSUES? Una breve guía de inicio rápido 💻
 ## 📌 ¿Qué son los *Issues* en GitHub?
 
