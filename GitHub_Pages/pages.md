@@ -14,7 +14,7 @@ GitHub Pages es un servicio que permite a los usuarios alojar sitios web directa
 
 ---
 
-## 1️⃣ Primer paso: Crear una cuenta en GitHub
+### 1️⃣ Primer paso: Crear una cuenta en GitHub
 Visita el sitio web oficial de GitHub para registrarte. Una cuenta es el punto de partida para acceder a todas sus funcionalidades. 🔑
 
 <div align="center">
@@ -23,7 +23,7 @@ Visita el sitio web oficial de GitHub para registrarte. Una cuenta es el punto d
 
 ---
 
-## 2️⃣ Segundo paso: Crear un repositorio nuevo
+### 2️⃣ Segundo paso: Crear un repositorio nuevo
 Una vez dentro de tu cuenta, dirígete a la sección de repositorios y crea uno nuevo. Este repositorio servirá como la base de tu sitio web. 🏗️
 
 <div align="center">
@@ -36,15 +36,15 @@ Una vez dentro de tu cuenta, dirígete a la sección de repositorios y crea uno 
 
 ---
 
-## 3️⃣ Tercer paso: Configurar GitHub Pages
-### a) Seleccionar el Branch "Main"
+### 3️⃣ Tercer paso: Configurar GitHub Pages
+#### a) Seleccionar el Branch "Main"
 Entra en la pestaña de **Settings** del repositorio y selecciona la opción **Pages**. Cambia el branch de "None" a **Main** y presiona **Save**. 🔄
 
 <div align="center">
   <img src="Cap4.png" alt="Configurar GitHub Pages">
 </div>
 
-### b) Crear el archivo `index`
+#### b) Crear el archivo `index`
 Después de unos minutos, en la misma pestaña verás aparecer la URL de tu sitio web. Inicialmente estará vacío, ya que solo se encuentra el archivo README en el repositorio. Para empezar a mostrar contenido, crea un archivo `index` (puede ser `index.html` o `index.md`) donde podrás editar y personalizar tu página. 📝
 
 <div align="center">
@@ -61,6 +61,8 @@ Después de unos minutos, en la misma pestaña verás aparecer la URL de tu siti
 ## 📘 Creación y personalización de un Sitio Web con GitHub Pages
 A continuación se presenta una breve guía sobre cómo crear y personalizar un sitio web:
 
+---
+
 ### 1️⃣ Usar Markdown o HTML/CSS para diseñar el sitio:
 GitHub Pages puede trabajar con Markdown y HTML para estructurar el sitio:
 - 🔹 Markdown (````.md````) es ideal para documentación, permitiendo escribir contenido de manera simple.
@@ -68,11 +70,18 @@ GitHub Pages puede trabajar con Markdown y HTML para estructurar el sitio:
 - 🔹 CSS (.css) permite personalizar estilos y mejorar la apariencia visual.
 Este puede ser una estructura básica en HTML con CSS para crear un archivo ````index.html````:
 
-(AQUÍ INSERTARÉ UNA IMAGEN)
+<div align="center">
+  <img src="codigo_html.png">
+</div>
 
 Y puedes agregar un ````styles.css````:
 
-(AQUÍ INSERTARÉ UNA IMAGEN)
+<div align="center">
+  <img src="codigo_css.png">
+</div>
+
+---
+
 ### 2️⃣ Configurar el archivo ````index.html```` y otros recursos:
 - 🔹 Coloca tu ````index.html```` en la raíz de tu repositorio para que GitHub Pages lo reconozca.
 - 🔹 Añade imágenes y archivos CSS en carpetas organizadas (````img/````, ````css/````, etc.).
@@ -90,6 +99,8 @@ Y puedes agregar un ````styles.css````:
 - Guardar cambios.
 
 GitHub generará tu sitio en: https://usuario.github.io/repositorio/
+
+---
 
 ### 3️⃣ Personalización del dominio con un archivo CNAME:
 Si deseas usar un dominio personalizado, sigue estos pasos:
