@@ -135,5 +135,22 @@ Una vez que tu rama ha sido subida a GitHub, es momento de abrir el Pull Request
 - 🔗 **Referencia a Issues (opcional)**: si tu PR soluciona un Issue, escríbelo así:  
      `Closes #23` → esto cerrará automáticamente el issue #23 al hacer merge.
 ---
+## **Espera revisión y responde feedback** 🔧 
+
+Cuando se abre el Pull Request, el equipo podrá:
+
+- 👀 Leer el código.
+- 💬 Comentar sugerencias o correcciones.
+- ✅ Aprobarlo o solicitar cambios.
+
+Si se te solicita hacer ajustes, puedes realizarlos desde el local y subir los cambios (como se mencionó anteriormente)
+
+```bash
+git add .
+git commit -m "Aplicar correcciones sugeridas"
+git push
+```
+---
+
 
 
