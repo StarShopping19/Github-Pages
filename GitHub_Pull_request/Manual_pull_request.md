@@ -117,3 +117,21 @@ Para trabajar con Git y gestionar cambios en un repositorio, es importante domin
   <pre>
 git pull origin nombre-de-la-rama</pre></div>
 
+---
+
+## **Crea el Pull Request** 🛠️
+
+Una vez que tu rama ha sido subida a GitHub, es momento de abrir el Pull Request (PR):
+
+1. Dirígete al repositorio en GitHub.
+2. Verás un botón que dice **"Compare & pull request"** — haz clic.
+
+<div align="center">
+  <img src="pullrequest.png">
+</div>
+
+3. Completa los siguientes campos:
+   - ✍️ **Título**: claro y directo sobre el cambio.
+   - 📄 **Descripción**: explica qué hiciste, por qué y cómo afecta el proyecto.
+   - 🔗 **Referencia a Issues (opcional)**: si tu PR soluciona un Issue, escríbelo así:  
+     `Closes #23` → esto cerrará automáticamente el issue #23 al hacer merge.
