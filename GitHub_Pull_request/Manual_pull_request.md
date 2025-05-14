@@ -14,6 +14,8 @@ Cuando alguien propone cambios, los miembros del equipo pueden:
 - Probar la funcionalidad,
 - Aprobar o rechazar la incorporación del código a la rama principal.
 
+---
+
 ## **Explicación del flujo de trabajo en GitHub** 🔄
 
 El uso de GitHub sigue un flujo de trabajo estructurado para garantizar que los cambios en el código sean organizados y revisados adecuadamente. En esta guía vamos a proporcionar los comandos que deben ser utilizados desde Git Bash.
@@ -41,6 +43,8 @@ El uso de GitHub sigue un flujo de trabajo estructurado para garantizar que los 
 🔹 5. Resolución de observaciones y ajustes: Si se detectan mejoras o errores en el código, se pueden realizar correcciones dentro de la misma rama y volver a subir los cambios con ````git commit```` y ````git push````.
 
 🔹 6. Aprobación de los cambios: Antes de fusionar los cambios en la rama principal, es fundamental asegurarse de que han sido revisados y aprobados por el equipo.
+
+---
 
 ## **Comandos básicos de Git relacionados** 🔄
 Para trabajar con Git y gestionar cambios en un repositorio, es importante dominar algunos comandos esenciales. Aquí tienes una lista de los más relevantes:
@@ -116,4 +120,73 @@ Para trabajar con Git y gestionar cambios en un repositorio, es importante domin
 <div align="center">
   <pre>
 git pull origin nombre-de-la-rama</pre></div>
+
+---
+
+## **Crea el Pull Request** 🛠️
+
+Una vez que tu rama ha sido subida a GitHub, es momento de abrir el Pull Request (PR):
+
+1. Dirígete al repositorio en GitHub.
+2. Verás un botón que dice **"Compare & pull request"** — haz clic.
+<div align="center">
+  <img src="pullrequest.png">
+</div>
+
+3. Completa los siguientes campos:
+- ✍️ **Título**: claro y directo sobre el cambio.
+- 📄 **Descripción**: explica qué hiciste, por qué y cómo afecta el proyecto.
+- 🔗 **Referencia a Issues (opcional)**: si tu PR soluciona un Issue, escríbelo así:  
+     `Closes #23` → esto cerrará automáticamente el issue #23 al hacer merge.
+---
+
+## **Espera revisión y responde feedback** 🔧 
+
+Cuando se abre el Pull Request, el equipo podrá:
+
+- 👀 Leer el código.
+- 💬 Comentar sugerencias o correcciones.
+- ✅ Aprobarlo o solicitar cambios.
+
+Si se te solicita hacer ajustes, puedes realizarlos desde el local y subir los cambios (como se mencionó anteriormente)
+
+```bash
+git add .
+git commit -m "Aplicar correcciones sugeridas"
+git push
+```
+---
+
+## **Aprobar y fusionar el Pull Request** ✅
+
+Una vez revisado y aprobado por al menos un miembro del equipo (según configuración del repositorio), puedes hacer merge del PR. Hay tres formas comunes:
+
+- 🔀 Merge commit: crea un commit adicional que une las ramas.
+
+- 🧼 Squash and merge: combina todos los commits en uno solo.
+
+- 🔁 Rebase and merge: reescribe el historial a la rama base para mantenerlo lineal.
+
+Haz clic en "Merge pull request" para finalizar el proceso.
+<div align="center">
+  <img src="mergelu.png">
+</div>
+
+---
+
+## **Buenas prácticas al trabajar con Pull Requests** 📌
+
+✍️ Usa títulos y descripciones claros.
+
+👥 Asigna revisores (@usuario) **si es necesario.**
+
+📎 Relaciona los PR con Issues existentes.
+
+🧪 Asegúrate de probar el código antes de abrir el PR.
+
+📂 Borra la rama luego de fusionar si ya no se necesita.
+
+---
+
+
 
