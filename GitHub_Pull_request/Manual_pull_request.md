@@ -135,6 +135,7 @@ Una vez que tu rama ha sido subida a GitHub, es momento de abrir el Pull Request
 - 🔗 **Referencia a Issues (opcional)**: si tu PR soluciona un Issue, escríbelo así:  
      `Closes #23` → esto cerrará automáticamente el issue #23 al hacer merge.
 ---
+
 ## **Espera revisión y responde feedback** 🔧 
 
 Cuando se abre el Pull Request, el equipo podrá:
@@ -152,5 +153,20 @@ git push
 ```
 ---
 
+## **Aprobar y fusionar el Pull Request** ✅
 
+Una vez revisado y aprobado por al menos un miembro del equipo (según configuración del repositorio), puedes hacer merge del PR. Hay tres formas comunes:
+
+- 🔀 Merge commit: crea un commit adicional que une las ramas.
+
+- 🧼 Squash and merge: combina todos los commits en uno solo.
+
+- 🔁 Rebase and merge: reescribe el historial a la rama base para mantenerlo lineal.
+
+Haz clic en "Merge pull request" para finalizar el proceso.
+<div align="center">
+  <img src="mergelu.png">
+</div>
+
+---
 
