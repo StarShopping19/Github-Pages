@@ -119,8 +119,8 @@ Una vez publicado tu sitio con GitHub Pages, es importante asegurarte de que se 
 - ⚠️ **Cambios no visibles:** Si actualizaste el contenido pero no se refleja en la web, prueba borrando la caché del navegador o recarga con `Ctrl + Shift + R`.
 
 ```
-- 🧹 ¿Cómo borrar la caché del navegador?
-🔵 Google Chrome
+🧹 ¿Cómo borrar la caché del navegador Google Chrome?
+
 1. Haz clic en los tres puntos de la esquina superior derecha.
 2. Ve a Más herramientas > Borrar datos de navegación.
 3. En el rango de tiempo, selecciona "Todo el tiempo".
@@ -130,4 +130,14 @@ Una vez publicado tu sitio con GitHub Pages, es importante asegurarte de que se 
 
 - 🚫 **Errores 404:** Verifica que tus archivos estén bien nombrados y en la raíz correcta (`index.html`, rutas de imágenes, etc.).
 - 🕳️ **Página en blanco:** Asegúrate de que tu archivo `index` esté bien estructurado y no tenga errores de sintaxis.
+
+---
+
+### 🔄 Actualización del contenido
+- 📝 Mantén tus archivos al día para reflejar los cambios en tu proyecto o portafolio.
+- 📌 Usa *commits* claros para llevar un control de las actualizaciones.
+
+(IMAGEN AQUI)
+---
+
 
