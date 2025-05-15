@@ -188,5 +188,132 @@ Haz clic en "Merge pull request" para finalizar el proceso.
 
 ---
 
+# 🔄 Ejemplos de Pull Requests en Proyectos Reales
+
+Los Pull Requests son esenciales para mejorar la calidad del código y fomentar la colaboración en equipos de desarrollo. A continuación, te mostramos tres ejemplos prácticos:
+
+---
+
+## 🐛 1. Corrección de Errores (Bug Fixes) 
+
+  Cuando se detecta un error en la aplicación, es importante aislar la solución sin afectar la rama principal.
+
+## 🚀 2.Implementación de Nuevas Funcionalidades
+
+  Para agregar una nueva característica, se utiliza un PR que asegure una revisión colaborativa del nuevo código
+  
+## 📚 3. Mejoras en la Documentación
+
+  Actualizar la documentación es tan importante como modificar el código. Un PR dedicado a la documentación mejora la claridad y la accesibilidad del proyecto.
+
+## *🛠 Errores comunes en GitHub Pull Requests y cómo solucionarlos*
+
+### *⿡ Conflictos de fusión (Merge Conflicts)*
+*🔹 Problema:*  
+Cuando intentas fusionar un Pull Request, Git detecta cambios en la rama base que entran en conflicto con los cambios de tu PR.  
+
+*✅ Solución:*  
+1. Ve a tu repositorio local y cambia a la rama de tu PR:  
+   bash
+   git checkout mi-rama
+   
+2. Obtén los últimos cambios de la rama base:  
+   bash
+   git fetch origin
+   git merge origin/main
+   
+3. Resuelve los conflictos manualmente en los archivos afectados.  
+4. Confirma los cambios y sube la actualización:  
+   bash
+   git add .
+   git commit -m "Resolviendo conflictos de fusión"
+   git push origin mi-rama
+   
+
+---
+
+### *⿢ Commits desordenados o innecesarios*
+*🔹 Problema:*  
+Tu Pull Request tiene demasiados commits pequeños o irrelevantes, lo que dificulta la revisión.  
+
+*✅ Solución:*  
+1. Usa git rebase para combinar commits:  
+   bash
+   git rebase -i HEAD~n  # Reemplaza "n" con el número de commits a modificar
+   
+2. Marca los commits innecesarios como squash para fusionarlos.  
+3. Guarda los cambios y sube la rama con git push --force.
+
+---
+
+### *⿣ PR basado en una rama incorrecta*
+*🔹 Problema:*  
+Tu Pull Request se creó desde una rama equivocada y no refleja los cambios correctos.  
+
+*✅ Solución:*  
+1. Cambia a la rama correcta en tu repositorio local:  
+   bash
+   git checkout main
+   
+2. Crea una nueva rama basada en main:  
+   bash
+   git checkout -b nueva-rama
+   
+3. Aplica los cambios y sube la nueva rama:  
+   bash
+   git push origin nueva-rama
+   
+4. Cierra el PR anterior y abre uno nuevo con la rama correcta.
+
+### *🚨 Recuperar una rama borrada antes de hacer merge en GitHub*
+
+*🔹 Problema:* 
+Has eliminado una rama en GitHub antes de fusionarla con main y necesitas recuperarla.
+
+*✅ Solución:*
+#### *⿡ Si la rama estaba en GitHub y fue eliminada*
+Si la rama estaba en un *Pull Request cerrado*, puedes restaurarla desde la interfaz de GitHub:
+1. Ve al repositorio en GitHub.
+2. Dirígete a la pestaña *Pull Requests*.
+3. Haz clic en *Closed* para ver los PR cerrados.
+4. Busca el PR de la rama eliminada.
+5. En la parte inferior, haz clic en *Restore branch*.
+
+<div align="center">
+  <img src="pull1.png">
+</div>
+
+#### *⿢ Si la rama fue eliminada localmente*
+Si la rama fue eliminada en tu máquina pero aún existe en GitHub, puedes recuperarla con:
+bash
+git fetch origin
+git checkout -b mi-rama origin/mi-rama
+
+Esto traerá la rama desde el repositorio remoto.
+
+#### *⿣ Si la rama fue eliminada sin haber sido subida a GitHub*
+Si la rama solo existía localmente y fue eliminada, puedes intentar recuperarla con git reflog:
+bash
+git reflog
+
+Esto mostrará un historial de cambios recientes. Busca el commit más reciente de la rama eliminada y usa:
+bash
+git checkout -b mi-rama <commit-hash>
+
+Reemplaza <commit-hash> con el identificador del último commit de la rama.
+
+#### *⿤ Si no recuerdas el commit de la rama eliminada*
+Puedes buscar commits huérfanos con:
+bash
+git fsck --full --no-reflogs | grep commit
+
+Esto listará commits que no están en ninguna rama activa. Luego, usa git checkout para restaurar la rama.
+
+
+
+
+
+
+
 
 
