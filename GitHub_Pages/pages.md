@@ -137,7 +137,10 @@ Una vez publicado tu sitio con GitHub Pages, es importante asegurarte de que se 
 - 📝 Mantén tus archivos al día para reflejar los cambios en tu proyecto o portafolio.
 - 📌 Usa *commits* claros para llevar un control de las actualizaciones.
 
-(IMAGEN AQUI)
+<div align="center">
+  <img src="ejcommit.png" width="300">
+</div>
+
 ---
 
 ### 🔍 Buenas prácticas y optimización para motores de búsqueda (SEO)
