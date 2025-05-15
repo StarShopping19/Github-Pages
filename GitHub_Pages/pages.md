@@ -118,7 +118,7 @@ Una vez publicado tu sitio con GitHub Pages, es importante asegurarte de que se 
 ### 🧩 Solución de problemas comunes
 - ⚠️ **Cambios no visibles:** Si actualizaste el contenido pero no se refleja en la web, prueba borrando la caché del navegador o recarga con `Ctrl + Shift + R`.
 
-```
+```chrome
 🧹 ¿Cómo borrar la caché del navegador Google Chrome?
 
 1. Haz clic en los tres puntos de la esquina superior derecha.
@@ -140,4 +140,48 @@ Una vez publicado tu sitio con GitHub Pages, es importante asegurarte de que se 
 (IMAGEN AQUI)
 ---
 
+### 🔍 Buenas prácticas y optimización para motores de búsqueda (SEO)
+
+Aplicar SEO ayuda a que tu sitio aparezca en los primeros resultados de Google u otros buscadores.
+
+#### 1. 🧠 Contenido estructurado
+
+- Usa títulos jerárquicos (`#`, `##`, `###`) para organizar la información.
+- Utiliza palabras clave relacionadas con tu tema.
+
+#### 2. 🏷️ Etiquetas HTML importantes
+
+Agrega estas etiquetas en el `<head>` de tu `index.html`:
+
+- `<title>`: Aparece en la pestaña del navegador y como título en Google.
+- `<meta name="description">`: Breve resumen que ayuda al posicionamiento en buscadores.
+
+```html
+<title>Mi Portafolio Web</title>
+<meta name="description" content="Portafolio de proyectos personales y profesionales de desarrollo web.">
+```
+#### 3. 🖼️ Descripciones de imágenes (alt)
+
+Incluye atributos `alt` en tus imágenes para mejorar la accesibilidad y también el SEO.
+
+```imagen
+<img src="proyecto.png" alt="Captura del proyecto de portafolio">
+```
+
+#### 4. 🔗 URLs limpias
+
+Evita caracteres complicados o largos:
+
+- ✅ `https://usuario.github.io/portafolio/proyectos.html`
+
+- ❌ `https://usuario.github.io/portafolio/p?=proj_01&v2`
+
+#### 5. ⚡ Sitio rápido
+
+- Comprime imágenes antes de subirlas 
+- Usa CSS y JavaScript optimizados.
+
+💡 Hay herramientas como [Minify](https://www.minifier.org/) que pueden ayudarte a reducir el tamaño de tus archivos automáticamente.
+
+---
 
