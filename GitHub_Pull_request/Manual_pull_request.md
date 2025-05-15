@@ -271,7 +271,7 @@ Tu Pull Request se creó desde una rama equivocada y no refleja los cambios corr
 Has eliminado una rama en GitHub antes de fusionarla con main y necesitas recuperarla.
 
 *✅ Solución:*
-#### *⿡ Si la rama estaba en GitHub y fue eliminada*
+#### *Si la rama estaba en GitHub y fue eliminada*
 Si la rama estaba en un *Pull Request cerrado*, puedes restaurarla desde la interfaz de GitHub:
 1. Ve al repositorio en GitHub.
 2. Dirígete a la pestaña *Pull Requests*.
@@ -283,7 +283,7 @@ Si la rama estaba en un *Pull Request cerrado*, puedes restaurarla desde la inte
   <img src="pull1.png">
 </div>
 
-#### *⿢ Si la rama fue eliminada localmente*
+#### *Si la rama fue eliminada localmente*
 Si la rama fue eliminada en tu máquina pero aún existe en GitHub, puedes recuperarla con:
 bash
 git fetch origin
@@ -291,7 +291,7 @@ git checkout -b mi-rama origin/mi-rama
 
 Esto traerá la rama desde el repositorio remoto.
 
-#### *⿣ Si la rama fue eliminada sin haber sido subida a GitHub*
+#### *Si la rama fue eliminada sin haber sido subida a GitHub*
 Si la rama solo existía localmente y fue eliminada, puedes intentar recuperarla con git reflog:
 bash
 git reflog
@@ -302,7 +302,7 @@ git checkout -b mi-rama <commit-hash>
 
 Reemplaza <commit-hash> con el identificador del último commit de la rama.
 
-#### *⿤ Si no recuerdas el commit de la rama eliminada*
+#### *Si no recuerdas el commit de la rama eliminada*
 Puedes buscar commits huérfanos con:
 bash
 git fsck --full --no-reflogs | grep commit
