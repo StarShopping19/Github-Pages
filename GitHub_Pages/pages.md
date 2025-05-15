@@ -188,3 +188,6 @@ Evita caracteres complicados o largos:
 
 ---
 
+Y recuerda...
+
+> "GitHub Pages transforma tu repositorio en un sitio web accesible para todos. ¡Publica tu código y compártelo con el mundo!"🌟
