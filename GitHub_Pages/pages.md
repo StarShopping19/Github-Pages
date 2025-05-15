@@ -109,4 +109,25 @@ Si deseas usar un dominio personalizado, sigue estos pasos:
 - 🔹 Configura tu dominio desde el panel de GitHub Pages en ````Settings > Pages > Custom Domain````.
 - 🔹 Añade registros **CNAME** en tu proveedor de dominio, apuntando a ````usuario.github.io````.
 
+---
+
+## 🛠️ Publicación y Mantenimiento
+
+Una vez publicado tu sitio con GitHub Pages, es importante asegurarte de que se mantenga actualizado y funcione correctamente. Algunas recomendaciones clave:
+
+### 🧩 Solución de problemas comunes
+- ⚠️ **Cambios no visibles:** Si actualizaste el contenido pero no se refleja en la web, prueba borrando la caché del navegador o recarga con `Ctrl + Shift + R`.
+
+```
+- 🧹 ¿Cómo borrar la caché del navegador?
+🔵 Google Chrome
+1. Haz clic en los tres puntos de la esquina superior derecha.
+2. Ve a Más herramientas > Borrar datos de navegación.
+3. En el rango de tiempo, selecciona "Todo el tiempo".
+4. Marca la opción "Archivos e imágenes en caché".
+5. Haz clic en "Borrar datos".
+```
+
+- 🚫 **Errores 404:** Verifica que tus archivos estén bien nombrados y en la raíz correcta (`index.html`, rutas de imágenes, etc.).
+- 🕳️ **Página en blanco:** Asegúrate de que tu archivo `index` esté bien estructurado y no tenga errores de sintaxis.
 
