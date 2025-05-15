@@ -178,7 +178,10 @@ Para que el seguimiento sea eficiente, utiliza estos métodos:
 
 - 💬 Comentarios (Comments) → Usa @menciones para notificar a colaboradores específicos.
 
-(AQUÍ INSERTARÉ IMAGEN)
+<div align="center">
+  <img src="ejemplo_comentarioissue.png">
+</div>
+
 - ⏳ Estado del Issue (Labels y Milestones) → Actualiza el progreso con etiquetas como In Progress, Fixed, etc.
 - 🔗 Referencias a Pull Requests (Linked Pull Requests) → Vincula el issue a una solución en desarrollo.
 
@@ -307,5 +310,8 @@ GitHub Projects permite actualizar el estado de una tarea fácilmente:
 
 💡 **Ventaja:** Permite a los equipos gestionar tareas de manera visual, manteniendo todo organizado sin perder contexto.
 
-(AQUÍ INSERTARÉ IMAGEN)
+<div align="center">
+  <img src="ejemplo_project.webp">
+</div>
+
 ---
