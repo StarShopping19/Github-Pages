@@ -283,31 +283,33 @@ Si la rama estaba en un *Pull Request cerrado*, puedes restaurarla desde la inte
   <img src="pull1.png">
 </div>
 
-#### *Si la rama fue eliminada localmente*
+#### *🖥️ Si la rama fue eliminada localmente*
 Si la rama fue eliminada en tu máquina pero aún existe en GitHub, puedes recuperarla con:
 bash
-git fetch origin
-git checkout -b mi-rama origin/mi-rama
+````git fetch origin````
+````git checkout -b mi-rama origin/mi-rama````
 
-Esto traerá la rama desde el repositorio remoto.
+✅ Esto recuperará la rama desde el repositorio remoto. 🔄
 
-#### *Si la rama fue eliminada sin haber sido subida a GitHub*
+#### *❌ Si la rama fue eliminada sin haber sido subida a GitHub*
 Si la rama solo existía localmente y fue eliminada, puedes intentar recuperarla con git reflog:
 bash
-git reflog
+````git reflog````
 
-Esto mostrará un historial de cambios recientes. Busca el commit más reciente de la rama eliminada y usa:
+
+🔍 Esto mostrará un historial de cambios recientes. Busca el commit más reciente de la rama eliminada y usa:
 bash
-git checkout -b mi-rama <commit-hash>
+````git checkout -b mi-rama <commit-hash>````
 
-Reemplaza <commit-hash> con el identificador del último commit de la rama.
+📝 Reemplaza <commit-hash> con el identificador del último commit de la rama.
 
-#### *Si no recuerdas el commit de la rama eliminada*
+#### *🤔 Si no recuerdas el commit de la rama eliminada*
 Puedes buscar commits huérfanos con:
 bash
-git fsck --full --no-reflogs | grep commit
+````git fsck --full --no-reflogs | grep commit````
 
-Esto listará commits que no están en ninguna rama activa. Luego, usa git checkout para restaurar la rama.
+🔎 Esto listará commits que no están en ninguna rama activa. Luego, usa git checkout para restaurar la rama.
+🚀✨ Con estos comandos, podrás recuperar tu trabajo y evitar perder progreso en tu código. 🚀✨
 
 
 
